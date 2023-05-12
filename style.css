@@ -16,11 +16,11 @@ body {
 .wrapper {
   height: 265px;
   max-width: 410px;
-  background: #fff;
+  background: black;
   border-radius: 7px;
   padding: 20px 25px 0;
   transition: height 0.2s ease;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
 }
 .wrapper.active {
   height: 530px;
@@ -48,7 +48,7 @@ header p {
 .form input {
   font-size: 18px;
   padding: 0 17px;
-  border: 1px solid #999;
+  border: 1px solid #000000;
 }
 .form input:focus {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
@@ -57,7 +57,7 @@ header p {
   color: #999;
 }
 .form button {
-  color: #fff;
+  color: #000000;
   cursor: pointer;
   margin-top: 20px;
   font-size: 17px;
@@ -71,7 +71,7 @@ header p {
   align-items: center;
   pointer-events: none;
   justify-content: center;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
 }
 .wrapper.active .qr-code {
   opacity: 1;
